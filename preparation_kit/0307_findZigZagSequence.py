@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/three-month-preparation-kit-zig-zag-sequence/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-three
+
 def findZigZagSequence(a, n):
     a.sort()
     mid = int((n + 1)/2) - 1 # change 1: switch with middle index
